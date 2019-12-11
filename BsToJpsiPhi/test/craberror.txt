@@ -1,0 +1,135 @@
+CRAB project directory:		/afs/cern.ch/work/m/mumuhamm/private/CMSSW_9_4_0/src/HeavyFlavorAnalysis/BsToJpsiPhi/test/Bs_Data_04_MAR/crab_BsToJPsiPhi_AllTrig_dG0
+Task name:			190304_093239:mumuhamm_crab_BsToJPsiPhi_AllTrig_dG0
+Grid scheduler - Task Worker:	crab3@vocms0155.cern.ch - crab-prod-tw01
+Status on the CRAB server:	SUBMITTED
+Task URL to use for HELP:	https://cmsweb.cern.ch/crabserver/ui/task/190304_093239%3Amumuhamm_crab_BsToJPsiPhi_AllTrig_dG0
+Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=mumuhamm&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=190304_093239%3Amumuhamm_crab_BsToJPsiPhi_AllTrig_dG0
+Status on the scheduler:	SUBMITTED
+
+Jobs status:                    cooloff      		 13.5% (1259/9329)
+				failed       		 19.3% (1803/9329)
+				finished     		 43.3% (4042/9329)
+				idle         		 10.2% ( 952/9329)
+				running      		  0.6% (  58/9329)
+				transferring 		 12.5% (1163/9329)
+				unsubmitted  		  0.6% (  52/9329)
+
+No publication information (publication has been disabled in the CRAB configuration file)
+
+Error Summary:
+
+1664 jobs failed with exit code 50660:
+	(Showing only the 3 most frequent errors messages for this exit code)
+
+	 209 jobs failed with following error message: (for example, job 9)
+
+		Job killed by HTCondor due to excessive memory use (RSS=2250 MB). Will not retry it.
+
+	 199 jobs failed with following error message: (for example, job 539)
+
+		Job killed by HTCondor due to excessive memory use (RSS=2500 MB). Will not retry it.
+
+	 163 jobs failed with following error message: (for example, job 3)
+
+		Job killed by HTCondor due to excessive memory use (RSS=2750 MB). Will not retry it.
+
+	For the error messages of the other 1093 jobs, please have a look at the dashboard task monitoring web page.
+
+  21 jobs failed with exit code 8001:
+	(Showing only the 3 most frequent errors messages for this exit code)
+
+	   1 jobs failed with following error message: (for example, job 8484)
+
+		CmsRunFailure
+		CMSSW error message follows.
+		Fatal Exception
+		An exception of category 'TrackingTools/PatternTools' occurred while
+		   [0] Processing  Event run: 304671 lumi: 222 event: 343438067 stream: 0
+		   [1] Running path 'ntup'
+		   [2] Calling method for module BsToJpsiPhiAnalysis/'bsVertexAnalysis'
+		Exception Message:
+		ClosestApproachInRPhi::could not compute track crossing. Check status before calling this method!
+
+	   1 jobs failed with following error message: (for example, job 6994)
+
+		CmsRunFailure
+		CMSSW error message follows.
+		Fatal Exception
+		An exception of category 'TrackingTools/PatternTools' occurred while
+		   [0] Processing  Event run: 304447 lumi: 242 event: 406825040 stream: 0
+		   [1] Running path 'ntup'
+		   [2] Calling method for module BsToJpsiPhiAnalysis/'bsVertexAnalysis'
+		Exception Message:
+		ClosestApproachInRPhi::could not compute track crossing. Check status before calling this method!
+
+	   1 jobs failed with following error message: (for example, job 8463)
+
+		CmsRunFailure
+		CMSSW error message follows.
+		Fatal Exception
+		An exception of category 'TrackingTools/PatternTools' occurred while
+		   [0] Processing  Event run: 304671 lumi: 71 event: 62591340 stream: 0
+		   [1] Running path 'ntup'
+		   [2] Calling method for module BsToJpsiPhiAnalysis/'bsVertexAnalysis'
+		Exception Message:
+		ClosestApproachInRPhi::could not compute track crossing. Check status before calling this method!
+
+	For the error messages of the other 18 jobs, please have a look at the dashboard task monitoring web page.
+
+   2 jobs failed with exit code 8021:
+
+	   1 jobs failed with following error message: (for example, job 6749)
+
+		CmsRunFailure
+		CMSSW error message follows.
+		Fatal Exception
+		An exception of category 'FileReadError' occurred while
+		   [0] Calling InputSource::getNextItemType
+		   [1] Reading branch EventAuxiliary
+		   [2] Calling XrdFile::readv()
+		   [3] XrdAdaptor::ClientRequest::HandleResponse() failure while running connection recovery
+		   [4] Handling XrdAdaptor::RequestManager::requestFailure()
+		   [5] In XrdAdaptor::RequestManager::OpenHandler::HandleResponseWithHosts()
+		Exception Message:
+		XrdCl::File::Open(name='root://xrootd.t2.ucsd.edu:2040//store/data/Run2017E/Charmonium/MINIAOD/31Mar2018-v1/60000/EC2088A9-3038-E811-BC61-0025904CDDFA.root', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3011] Too many attempts to gain dfs read access to the file
+		' (errno=3011, code=400)
+		   Additional Info:
+		      [a] Original error: '[ERROR] Operation expired' (errno=0, code=206, source=xcache-01.t2.ucsd.edu:1094 (site UCSD-XCACHE)).
+		      [b] Original failed source is xcache-01.t2.ucsd.edu:1094 (site UCSD-XCACHE)
+		      [c] Disabled source: xcache-01.t2.ucsd.edu:1094
+
+	   1 jobs failed with following error message: (for example, job 6927)
+
+		CmsRunFailure
+		CMSSW error message follows.
+		Fatal Exception
+		An exception of category 'FileReadError' occurred while
+		   [0] Calling InputSource::getNextItemType
+		   [1] Reading branch EventAuxiliary
+		   [2] Calling XrdFile::readv()
+		   [3] XrdAdaptor::ClientRequest::HandleResponse() failure while running connection recovery
+		   [4] Handling XrdAdaptor::RequestManager::requestFailure()
+		   [5] In XrdAdaptor::RequestManager::OpenHandler::HandleResponseWithHosts()
+		Exception Message:
+		XrdCl::File::Open(name='root://xrootd.t2.ucsd.edu:2040//store/data/Run2017E/Charmonium/MINIAOD/31Mar2018-v1/60000/768CAA51-3E38-E811-A476-0025905C96A4.root', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3011] Too many attempts to gain dfs read access to the file
+		' (errno=3011, code=400)
+		   Additional Info:
+		      [a] Original error: '[ERROR] Operation expired' (errno=0, code=206, source=xcache-02.t2.ucsd.edu:1094 (site UCSD-XCACHE)).
+		      [b] Original failed source is xcache-02.t2.ucsd.edu:1094 (site UCSD-XCACHE)
+		      [c] Disabled source: xcache-02.t2.ucsd.edu:1094
+
+Could not find exit code details for 116 jobs.
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+
+Warning: the max jobs runtime is less than 30% of the task requested value (1250 min), please consider to request a lower value for failed jobs (allowed through crab resubmit) and/or improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task.
+
+Warning: the average jobs CPU efficiency is less than 50%, please consider to improve the jobs splitting (e.g. config.Data.splitting = 'Automatic') in a new task
+
+Summary of run jobs:
+ * Memory: 0MB min, 7546MB max, 912MB ave
+ * Runtime: 0:00:00 min, 0:33:27 max, 0:05:04 ave
+ * CPU eff: 0% min, 84% max, 41% ave
+ * Waste: 291:18:56 (29% of total)
+
+Log file is /afs/cern.ch/work/m/mumuhamm/private/CMSSW_9_4_0/src/HeavyFlavorAnalysis/BsToJpsiPhi/test/Bs_Data_04_MAR/crab_BsToJPsiPhi_AllTrig_dG0/crab.log
