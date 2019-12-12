@@ -1,0 +1,301 @@
+digraph Angular_Model{
+"Angular_Model" [ color=red, label="RooRealSumPdf
+Angular_Model"];
+"eq11" [ color=red, label="RooProduct
+eq11"];
+"tm_conv_coshGBasis_[BsCt2DMC]" [ color=red, label="RooTruthModel
+tm_conv_coshGBasis_[BsCt2DMC]"];
+"BsCt2DMC" [ color=blue, label="RooRealVar
+BsCt2DMC"];
+"coshGBasis" [ color=red, label="RooFormulaVar
+coshGBasis"];
+"tau" [ color=blue, label="RooRealVar
+tau"];
+"dGam" [ color=blue, label="RooRealVar
+dGam"];
+"fun1T" [ color=red, label="RooFormulaVar
+fun1T"];
+"BscosthetaMC" [ color=blue, label="RooRealVar
+BscosthetaMC"];
+"BsphiMC" [ color=blue, label="RooRealVar
+BsphiMC"];
+"BscospsiMC" [ color=blue, label="RooRealVar
+BscospsiMC"];
+"A_0" [ color=blue, label="RooRealVar
+A_0"];
+"eq12" [ color=red, label="RooProduct
+eq12"];
+"coef12" [ color=red, label="RooFormulaVar
+coef12"];
+"phi_s" [ color=blue, label="RooRealVar
+phi_s"];
+"tm_conv_sinhGBasis_[BsCt2DMC]" [ color=red, label="RooTruthModel
+tm_conv_sinhGBasis_[BsCt2DMC]"];
+"sinhGBasis" [ color=red, label="RooFormulaVar
+sinhGBasis"];
+"eq14" [ color=red, label="RooProduct
+eq14"];
+"coef14" [ color=red, label="RooFormulaVar
+coef14"];
+"tag" [ color=blue, label="RooCategory
+tag"];
+"mistag" [ color=blue, label="RooRealVar
+mistag"];
+"tm_conv_sinGBasis_[BsCt2DMC]" [ color=red, label="RooTruthModel
+tm_conv_sinGBasis_[BsCt2DMC]"];
+"sinGBasis" [ color=red, label="RooFormulaVar
+sinGBasis"];
+"dm" [ color=blue, label="RooRealVar
+dm"];
+"eq21" [ color=red, label="RooProduct
+eq21"];
+"fun2T" [ color=red, label="RooFormulaVar
+fun2T"];
+"A_pa" [ color=red, label="RooFormulaVar
+A_pa"];
+"A_pe" [ color=blue, label="RooRealVar
+A_pe"];
+"eq22" [ color=red, label="RooProduct
+eq22"];
+"coef22" [ color=red, label="RooFormulaVar
+coef22"];
+"eq24" [ color=red, label="RooProduct
+eq24"];
+"coef24" [ color=red, label="RooFormulaVar
+coef24"];
+"eq31" [ color=red, label="RooProduct
+eq31"];
+"fun3T" [ color=red, label="RooFormulaVar
+fun3T"];
+"phizero" [ color=red, label="RooLegendre
+phizero"];
+"phinew" [ color=red, label="RooFormulaVar
+phinew"];
+"eq32" [ color=red, label="RooProduct
+eq32"];
+"coef32" [ color=red, label="RooFormulaVar
+coef32"];
+"eq34" [ color=red, label="RooProduct
+eq34"];
+"coef34" [ color=red, label="RooFormulaVar
+coef34"];
+"eq42" [ color=red, label="RooProduct
+eq42"];
+"coef42" [ color=red, label="RooFormulaVar
+coef42"];
+"deltaPe" [ color=blue, label="RooRealVar
+deltaPe"];
+"deltaPa" [ color=blue, label="RooRealVar
+deltaPa"];
+"fun4T" [ color=red, label="RooFormulaVar
+fun4T"];
+"A_4" [ color=red, label="RooFormulaVar
+A_4"];
+"eq43" [ color=red, label="RooProduct
+eq43"];
+"coef43" [ color=red, label="RooFormulaVar
+coef43"];
+"tm_conv_cosGBasis_[BsCt2DMC]" [ color=red, label="RooTruthModel
+tm_conv_cosGBasis_[BsCt2DMC]"];
+"cosGBasis" [ color=red, label="RooFormulaVar
+cosGBasis"];
+"eq44" [ color=red, label="RooProduct
+eq44"];
+"coef44" [ color=red, label="RooFormulaVar
+coef44"];
+"eq51" [ color=red, label="RooProduct
+eq51"];
+"coef51" [ color=red, label="RooFormulaVar
+coef51"];
+"fun5T" [ color=red, label="RooFormulaVar
+fun5T"];
+"A_5" [ color=red, label="RooFormulaVar
+A_5"];
+"eq52" [ color=red, label="RooProduct
+eq52"];
+"coef52" [ color=red, label="RooFormulaVar
+coef52"];
+"eq54" [ color=red, label="RooProduct
+eq54"];
+"coef54" [ color=red, label="RooFormulaVar
+coef54"];
+"eq62" [ color=red, label="RooProduct
+eq62"];
+"coef62" [ color=red, label="RooFormulaVar
+coef62"];
+"fun6T" [ color=red, label="RooFormulaVar
+fun6T"];
+"A_6" [ color=red, label="RooFormulaVar
+A_6"];
+"eq63" [ color=red, label="RooProduct
+eq63"];
+"coef63" [ color=red, label="RooFormulaVar
+coef63"];
+"eq64" [ color=red, label="RooProduct
+eq64"];
+"coef64" [ color=red, label="RooFormulaVar
+coef64"];
+"coef44" -> "mistag";
+"coef44" -> "tag";
+"coef44" -> "phi_s";
+"coef44" -> "deltaPa";
+"coef44" -> "deltaPe";
+"coef51" -> "deltaPa";
+"coef52" -> "phi_s";
+"coef52" -> "deltaPa";
+"coef54" -> "mistag";
+"coef54" -> "tag";
+"coef54" -> "phi_s";
+"coef54" -> "deltaPa";
+"coef62" -> "phi_s";
+"coef62" -> "deltaPe";
+"coef63" -> "mistag";
+"coef63" -> "tag";
+"coef63" -> "deltaPe";
+"coef64" -> "mistag";
+"coef64" -> "tag";
+"coef64" -> "phi_s";
+"coef64" -> "deltaPe";
+"eq11" -> "tm_conv_coshGBasis_[BsCt2DMC]";
+"eq11" -> "fun1T";
+"eq12" -> "tm_conv_sinhGBasis_[BsCt2DMC]";
+"eq12" -> "fun1T";
+"eq12" -> "coef12";
+"coshGBasis" -> "BsCt2DMC";
+"coshGBasis" -> "dGam";
+"coshGBasis" -> "tau";
+"sinhGBasis" -> "BsCt2DMC";
+"sinhGBasis" -> "dGam";
+"sinhGBasis" -> "tau";
+"cosGBasis" -> "BsCt2DMC";
+"cosGBasis" -> "dm";
+"cosGBasis" -> "tau";
+"sinGBasis" -> "BsCt2DMC";
+"sinGBasis" -> "dm";
+"sinGBasis" -> "tau";
+"tm_conv_coshGBasis_[BsCt2DMC]" -> "BsCt2DMC";
+"tm_conv_coshGBasis_[BsCt2DMC]" -> "coshGBasis";
+"tm_conv_sinhGBasis_[BsCt2DMC]" -> "BsCt2DMC";
+"tm_conv_sinhGBasis_[BsCt2DMC]" -> "sinhGBasis";
+"tm_conv_cosGBasis_[BsCt2DMC]" -> "BsCt2DMC";
+"tm_conv_cosGBasis_[BsCt2DMC]" -> "cosGBasis";
+"tm_conv_sinGBasis_[BsCt2DMC]" -> "BsCt2DMC";
+"tm_conv_sinGBasis_[BsCt2DMC]" -> "sinGBasis";
+"phinew" -> "BsphiMC";
+"phizero" -> "phinew";
+"fun1T" -> "BscosthetaMC";
+"fun1T" -> "BscospsiMC";
+"fun1T" -> "BsphiMC";
+"fun2T" -> "BscosthetaMC";
+"fun2T" -> "BscospsiMC";
+"fun2T" -> "BsphiMC";
+"fun3T" -> "BscosthetaMC";
+"fun3T" -> "BscospsiMC";
+"fun3T" -> "phizero";
+"fun4T" -> "BscosthetaMC";
+"fun4T" -> "BscospsiMC";
+"fun4T" -> "BsphiMC";
+"fun5T" -> "BscosthetaMC";
+"fun5T" -> "BscospsiMC";
+"fun5T" -> "BsphiMC";
+"fun6T" -> "BscosthetaMC";
+"fun6T" -> "BscospsiMC";
+"fun6T" -> "BsphiMC";
+"coef12" -> "phi_s";
+"coef14" -> "mistag";
+"coef14" -> "tag";
+"coef14" -> "phi_s";
+"coef22" -> "phi_s";
+"coef24" -> "mistag";
+"coef24" -> "tag";
+"coef24" -> "phi_s";
+"coef32" -> "phi_s";
+"coef34" -> "mistag";
+"coef34" -> "tag";
+"coef34" -> "phi_s";
+"coef42" -> "phi_s";
+"coef42" -> "deltaPa";
+"coef42" -> "deltaPe";
+"coef43" -> "mistag";
+"coef43" -> "tag";
+"coef43" -> "deltaPa";
+"coef43" -> "deltaPe";
+"eq34" -> "tm_conv_sinGBasis_[BsCt2DMC]";
+"eq34" -> "fun3T";
+"eq34" -> "coef34";
+"eq42" -> "tm_conv_sinhGBasis_[BsCt2DMC]";
+"eq42" -> "fun4T";
+"eq42" -> "coef42";
+"eq43" -> "tm_conv_cosGBasis_[BsCt2DMC]";
+"eq43" -> "fun4T";
+"eq43" -> "coef43";
+"eq44" -> "coef44";
+"eq44" -> "tm_conv_sinGBasis_[BsCt2DMC]";
+"eq44" -> "fun4T";
+"eq51" -> "coef51";
+"eq51" -> "tm_conv_coshGBasis_[BsCt2DMC]";
+"eq51" -> "fun5T";
+"eq52" -> "coef52";
+"eq52" -> "tm_conv_sinhGBasis_[BsCt2DMC]";
+"eq52" -> "fun5T";
+"eq54" -> "coef54";
+"eq54" -> "tm_conv_sinGBasis_[BsCt2DMC]";
+"eq54" -> "fun5T";
+"eq62" -> "coef62";
+"eq62" -> "tm_conv_sinhGBasis_[BsCt2DMC]";
+"eq62" -> "fun6T";
+"eq63" -> "coef63";
+"eq63" -> "tm_conv_cosGBasis_[BsCt2DMC]";
+"eq63" -> "fun6T";
+"eq64" -> "coef64";
+"eq64" -> "tm_conv_sinGBasis_[BsCt2DMC]";
+"eq64" -> "fun6T";
+"eq14" -> "tm_conv_sinGBasis_[BsCt2DMC]";
+"eq14" -> "fun1T";
+"eq14" -> "coef14";
+"eq21" -> "tm_conv_coshGBasis_[BsCt2DMC]";
+"eq21" -> "fun2T";
+"eq22" -> "tm_conv_sinhGBasis_[BsCt2DMC]";
+"eq22" -> "fun2T";
+"eq22" -> "coef22";
+"eq24" -> "tm_conv_sinGBasis_[BsCt2DMC]";
+"eq24" -> "fun2T";
+"eq24" -> "coef24";
+"eq31" -> "tm_conv_coshGBasis_[BsCt2DMC]";
+"eq31" -> "fun3T";
+"eq32" -> "tm_conv_sinhGBasis_[BsCt2DMC]";
+"eq32" -> "fun3T";
+"eq32" -> "coef32";
+"A_6" -> "A_0";
+"A_6" -> "A_pe";
+"A_5" -> "A_pa";
+"A_5" -> "A_0";
+"A_4" -> "A_pa";
+"A_4" -> "A_pe";
+"A_pa" -> "A_0";
+"A_pa" -> "A_pe";
+"Angular_Model" -> "eq11";
+"Angular_Model" -> "eq12";
+"Angular_Model" -> "eq34";
+"Angular_Model" -> "eq42";
+"Angular_Model" -> "eq43";
+"Angular_Model" -> "eq44";
+"Angular_Model" -> "eq51";
+"Angular_Model" -> "eq52";
+"Angular_Model" -> "eq54";
+"Angular_Model" -> "eq62";
+"Angular_Model" -> "eq63";
+"Angular_Model" -> "eq64";
+"Angular_Model" -> "eq14";
+"Angular_Model" -> "eq21";
+"Angular_Model" -> "eq22";
+"Angular_Model" -> "eq24";
+"Angular_Model" -> "eq31";
+"Angular_Model" -> "eq32";
+"Angular_Model" -> "A_6";
+"Angular_Model" -> "A_5";
+"Angular_Model" -> "A_4";
+"Angular_Model" -> "A_pa";
+"Angular_Model" -> "A_0";
+"Angular_Model" -> "A_pe";
+}
