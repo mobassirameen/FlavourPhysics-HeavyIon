@@ -4,7 +4,7 @@ works to collect the muons and packed particle flow objects with proper trigger 
 collect all kinematic observables for the flavour tagged agular analysis. The kinematic observables are three angles in the 
 transversity basis of the decay process and the lifetime and lifetime uncertainty of the Bs mother candidate.
 
-#The BsToJpsiPhi/src directory 
+# BsToJpsiPhi/src directory 
 
 This is main C++ analyzer module which is further wrapped with a python script resides in the test directory along 
 with some small sripts ( viz., crab script)
